@@ -11,3 +11,7 @@ git add filename//将文件添加到仓库
 git commit-m "comment"//提交到仓库，可一次提交多个文件 
 ```
 
+## 查看状态
+
+`git status`
+
