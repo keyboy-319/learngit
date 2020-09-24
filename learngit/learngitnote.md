@@ -15,3 +15,12 @@ git commit-m "comment"//提交到仓库，可一次提交多个文件
 
 `git status`
 
+## 查看版本与回退
+
+### 查看
+
+`git log`
+
+### 回退
+
+`git reset -hard HEAD^`
