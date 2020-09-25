@@ -24,3 +24,8 @@ git commit-m "comment"//提交到仓库，可一次提交多个文件
 ### 回退
 
 `git reset -hard HEAD^`
+
+### 查看命令记录
+
+`git reflog`
+
