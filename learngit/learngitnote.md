@@ -29,6 +29,10 @@ git commit-m "comment"//提交到仓库，可一次提交多个文件
 
 `git reflog`
 
+```
+git log --pretty=oneline --abbrev-commit//查看commit id
+```
+
 ### 撤销修改
 
 `git checkout -- file`
@@ -156,3 +160,51 @@ git log -p FETCH_HEAD//查看更新信息
 #### 团队协作时
 
 ![image-20200926151845809](C:\Users\hasee\AppData\Roaming\Typora\typora-user-images\image-20200926151845809.png)
+
+#### 标签
+
+```
+git tag name //为分支添加标签，默认在最新的commit上
+git tag name commitid//为历史commit打上标签
+git tag//查看标签
+git tag -a tagname -m"sth"//带有说明的标签
+```
+
+
+
+```
+git push origin tagname//推送本地标签
+git push origin --tags//全部标签推送
+git tag -d tagname //删除本地标签
+git push origin :refs/tags/tagname //删除远程标签
+```
+
+
+
+##### rebase
+
+![image-20200926154005283](C:\Users\hasee\AppData\Roaming\Typora\typora-user-images\image-20200926154005283.png)
+
+
+
+`git rebase`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 参与别人的开源项目
+
+![image-20200926153835532](C:\Users\hasee\AppData\Roaming\Typora\typora-user-images\image-20200926153835532.png)
